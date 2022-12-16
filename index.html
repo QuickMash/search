@@ -1,8 +1,9 @@
 <!doctype html>
 <script>
-  function MyFunction() {
-    url("https://www.google.com/search?q=");
-  }
+   function show(){
+         s=searchForm.searchField.value;
+         document.write("You have searched for "+s);
+      }
 </script>
 <style>
   body {
@@ -20,10 +21,12 @@
 }
 </style>
 <h1>Search The Web</h1>
-<form id="form"> 
-  <input type=”search” placeholder="Search QuickSearch">
-  <button onclick="MyFunction()">Search</button>
-</form>
+   <form id="searchForm">
+         <label for="sea">Search for : <label>
+         <input type="search" name="searchField">
+         <br><br>
+         <input type="submit" value="Search" onclick="show()">
+   </form> 
 <footer>
   <p>Tanners web browser version<b> 0.0.1 BETA</b></p>
 
