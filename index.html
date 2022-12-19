@@ -1,4 +1,8 @@
 <!doctype html>
+<title>New Tab</title>
+<html>
+   <head>
+<!-- Searching script -->
 <script>
    function show() {
   const s = document.getElementById('inputId').value;
@@ -20,11 +24,17 @@
   align-items: center;
 }
 </style>
+   <body>
 <h1>Search The Web</h1>
+<!-- Search Button and input -->
 <form id="searchForm" onsubmit="event.preventDefault()">
         <input type="search" name="searchField" id="inputId" placeholder="Search QuickSearch">
         <input type="submit" value="Search" onclick="show()">
     </form>
 <footer>
   <p>QuickMash's web browser version<b> 0.0.1 BETA</b></p>
+   </footer>
+   </body>
+   </head>
+   </html>
 
