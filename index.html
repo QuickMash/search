@@ -1,9 +1,9 @@
 <!doctype html>
 <script>
-   function show(){
-         s=searchForm.searchField.value;
-         window.location.replace("https://www.google.com/search?q="+searchField);
-      }
+   function show() {
+  const s = document.getElementById('inputId').value;
+  window.location.replace("https://www.google.com/search?q=" + s);
+}
 </script>
 <style>
   body {
@@ -21,10 +21,10 @@
 }
 </style>
 <h1>Search The Web</h1>
-   <form id="searchForm"  style="cursor:pointer;" title="Stack Overflow">
-         <input type="search" name="searchField" placeholder="Search QuickSearch">
-         <input type="submit" value="Search" onclick="show()">
-   </form> 
+<form id="searchForm" onsubmit="event.preventDefault()">
+        <input type="search" name="searchField" id="inputId" placeholder="Search QuickSearch">
+        <input type="submit" value="Search" onclick="show()">
+    </form>
 <footer>
   <p>QuickMash's web browser version<b> 0.0.1 BETA</b></p>
 
