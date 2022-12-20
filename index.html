@@ -19,6 +19,17 @@
   const s = document.getElementById('inputId').value;
   window.location.replace("https://www.google.com/search?q=" + s);
 }
+   const btn = document.querySelector('button.color');
+
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+btn.addEventListener('click', () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+
 </script>
 <style>
    footer {
@@ -67,6 +78,7 @@ line-height:100px;
       <iframe src="https://www.bing.com/?toWww=1&redig=1D93F9D6578D4BF2B9E1E470FBCF3F21" class="MicrosoftRewards"></iframe>
 <footer>
   <p>QuickMash's web browser version<b> 0.1.5 ALPHA</b></p>
+   <button class="color">Color</button>
    </footer>
    </body>
    </head>
