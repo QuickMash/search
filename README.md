@@ -1,2 +1,3 @@
 # QuickMash's Search Browser
-A search browser
+A Google-based search engine
+## Check Out the Wiki for more info
