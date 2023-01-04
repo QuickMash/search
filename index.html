@@ -1,92 +1,42 @@
 <!doctype html>
-<title>New Tab</title>
 <html>
+   <font face="arial,helvetica,sans-serif">
+      <title>QuickSearch</title>
    <head>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <style>
-         #menu {
-  display: none;
-}
-.material-symbols-outlined {
-   align: right;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+         body {
+          color: #006400;  
          }
+         #topRightFixed {
+   position: fixed;
+   top: 0;
+   right: 0;
+   background: #336600;
+   padding: 6px;
+   color: #fff;
+   font-size: 1.4em;
+}
       </style>
-<!-- Searching script -->
-<script>
-   function show() {
+      <script>
+         function show() {
   const s = document.getElementById('inputId').value;
   window.location.replace("https://www.google.com/search?q=" + s);
-};
-
-</script>
-<style>
-   footer {
-position: absolute;
-left: 0;
-bottom: 0;
-height: 100px;
-width: 100%;
-color:#000000; 
-background: #333;
-font-size:1.5em;
-text-align: center;
-line-height:100px;
 }
-  body {
-       top-padding: 25px;
-     bottom-padding: 0px;
-     left-padding: 25px;
-     right-padding: 25px;
-      align-items: center;
-      background-color: #00f300;
-  }
-  form {
-     autocomplete: disabled;
-  background-color: #00f300;
-  width: 300px;
-  height: 44px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-   iframe.MicrosoftRewards {
-      display: none;
-   }
-         div.menu{
-          background-color: #ffffff;  
-         }
-.navMenu{overflow:hidden;background-color:#212121}.navMenu a{float:left;display:block;color:#f2f2f2;text-align:center;padding:14px 16px;text-decoration:none;font-size:17px}.navMenu a.active{background-color:#25a186;color:#FFF}.navMenu .icon{display:none}.fa-bars:before{content:"\f0c9"}.navMenu .dropdown{float:left;overflow:hidden}.navMenu .dropdown .dropbtn{font-size:16px;border:none;outline:none;color:#FFFFFF;padding:14px 16px;background-color:#212121;font-family:inherit;margin:0;width:100%;text-align:left}.main_links{background-color:#212121;color:#FFFFFF;line-height:1}.main_links:hover{background-color:#00bd00;color:#FFFFFF}.navMenu .navbar a:hover,.navMenu .dropdown:hover .dropbtn{background-color:#00bd00;color:#FFFFFF}.navMenu .dropdown-content{display:none;position:absolute;background-color:#000;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);z-index:1}.navMenu .dropdown-content a{float:none;color:#FFF;padding:12px 16px;text-decoration:none;display:block;text-align:left;background-color:#292924;color:#000000}.navMenu .dropdown-content a:hover{background-color:#212121;color:#FFFFFF}.navMenu .dropdown:hover .dropdown-content{display:block}@media screen and (max-width: 768px){.navMenu a:not(:first-child){display:none}.navMenu .dropdown{display:none}.navMenu a.icon{float:right;display:block}.navMenu.mobileView{position:relative}.navMenu.mobileView .icon{position:absolute;right:0;top:0}.navMenu.mobileView a{float:none;display:block;text-align:left}.navMenu.mobileView .dropdown{float:none;display:block;text-align:left}.navMenu .dropdown-content{position:relative}}
-      </style>
-<div class='navMenu' id='navMenuId'><a href='https://quickmash.github.io' class='main_links'>Home</a><a href='https://quickmash.github.io/search' class='main_links'>Search</a><a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;</a></div>
-<body>
-      <h1>Search The Web</h1>
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-<a id="openMenu">
-  <span class="material-symbols-outlined">apps</span>
-</a>
-<div id="menu">
-  <p>apps</p>
-   <p>You have no apps</p>
+      </script>
+      <body>
+         <div id="topRightFixed">Top right fixed content</div>
+<div style="height: 3000px">
+  <h2>Scroll down now</h2>
 </div>
-<!-- Search Button and input -->
-<form id="searchForm" onsubmit="event.preventDefault()">
+         <h1>Search the web</h1>
+         <form id="searchForm" onsubmit="event.preventDefault()">
         <input type="search" name="searchField" id="inputId" placeholder="Search QuickSearch">
-        <input autocomplete="off" type="submit" value="Search" onclick="show()">
-    </form>
-      <div class="links">
-         <a href="">
-      </div>
-<footer>
-  <p>QuickMash's web browser version<b> 0.2.9</b></p>
-   </footer>
-   </body>
+        <input type="submit" value="Search" onclick="show()">
+         </form>
+         <footer>
+            <p>2023 QuickMash Studios | version 10.0.0</p>
+         </footer>
+         </font>
+      </body>
    </head>
-   </html>
-
+</html>
