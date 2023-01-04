@@ -3,7 +3,11 @@
    <font face="arial,helvetica,sans-serif">
       <title>QuickSearch</title>
    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <style>
+         #menu {
+  display: none;
+}
          body {
           background-color: #006400;
           color: #ffffff;
@@ -19,6 +23,11 @@
 }
       </style>
       <script>
+         document.getElementById('openMenu').addEventListener('click', () => {
+  const menu = document.getElementById('menu');
+  if (menu.style.display === 'block') menu.style.display = 'none';
+  else menu.style.display = 'block';
+});
          function show() {
   const s = document.getElementById('inputId').value;
   window.location.replace("https://www.google.com/search?q=" + s);
@@ -26,6 +35,12 @@
       </script>
       <body>
          <div id="topRightFixed">QuickMash Studios</div>
+<a id="openMenu">
+  <span class="material-symbols-outlined">apps</span>
+</a>
+<div id="menu">
+  <p>You have no apps!</p>
+</div>
          <h1>Search the web</h1>
          <form id="searchForm" onsubmit="event.preventDefault()">
         <input type="search" name="searchField" id="inputId" placeholder="Search QuickSearch">
