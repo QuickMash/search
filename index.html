@@ -29,6 +29,10 @@ function openMenu() {  var navMain = document.getElementById('navMenuId');  if (
 }
       </style>
       <script>
+         function signIn() {
+         let x = prompt("Big Daddy");
+            alert(x);
+         }
          document.getElementById('openMenu').addEventListener('click', () => {
   const menu = document.getElementById('menu');
   if (menu.style.display === 'block') menu.style.display = 'none';
