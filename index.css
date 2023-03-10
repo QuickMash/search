@@ -1,9 +1,7 @@
 body {
- padding: 20px;
-  background-color: #333;
-  color: #ffffff
+ background: linear-gradient(to bottom left, #339933 0%, #66ccff 100%);
+ color: #ffffff;
 }
-.selected {
-  background-color: #4EBB20;
-  color: #ffffff
+#h1 {
+ font-size: 20px;
 }
