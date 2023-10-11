@@ -19,3 +19,10 @@ body {
 			color: #e4e5e7;
 			background-color: #ffa200;
 		}
+.contain {
+         padding: 10px;
+        box-shadow: 5px 10px 18px #333;
+        background-color: white;
+	color: black;
+	
+}
