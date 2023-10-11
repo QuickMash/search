@@ -1,4 +1,5 @@
-#QuickSearch
-## QuickMash's Search Browser
-A Google-based search engine
-## Check Out the Wiki for more info
+# QuickSearch
+A Search engine made by QuickMash! Studios
+## Help
+Contact me on discord
+My discord username is quickmash
