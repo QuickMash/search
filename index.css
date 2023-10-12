@@ -2,6 +2,10 @@ input {
 	border-radius: 0px;
 	color: #000000;
 }
+.placel{
+  width: 30%;
+  background-color: none;
+}
 body {
  background: url(files\background.jpg);
 }
