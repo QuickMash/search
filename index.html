@@ -2,7 +2,7 @@
 <html>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <font face="arial,helvetica,sans-serif">
-    <title>QuickSearch
+    <title>QuickSearch 1.6.0
     </title>
     <head>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -11,56 +11,23 @@
       <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
       <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
       <script>
-        function openMenu() {
-          var navMain = document.getElementById('navMenuId');
-          if (navMain.className=== 'navMenu') {
-            navMain.className += ' mobileView';
-          }
-          else {
-            navMain.className = 'navMenu';
-          }
-        }
-        document.getElementById('openMenu').addEventListener('click', () => {
-          const menu = document.getElementById('menu');
-          if (menu.style.display === 'block') menu.style.display = 'none';
-          else menu.style.display = 'block';
-        }
-                                                            );
         function show() {
           const s = document.getElementById('inputId').value;
           document.location.href("https://duckduckgo.com/?t=h_&q=" + s);
         }
-        function settings() {
-          alert("Sorry,\nthis is currently disabled.")
-        }
       </script>
-      <body>
-        <div id="topRightFixed">QuickMash Studios
-        </div>
-        <div class='navMenu' id='navMenuId'>
-          <a href='https://quickmash.github.io' class='main_links'>Home
-          </a>
-          <a href='_self' class='main_links'>Search
-          </a>
-          <a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;
-          </a>
-        </div>
         <div class="contain">
-        <h1>Search the web!
-        </h1>
+          <img class="logo" title="logo" href="https://quickmash.github.io" rel="logo.png">
         <form id="searchForm" onsubmit="event.preventDefault()">
           <input type="search" name="searchField" id="inputId" placeholder="Search duckduckgo">
           <input type="submit" value="Search" onclick="show()">
-          </div>
         </form>
-        <div class="placel"></div>
-        <footer>
+        </div>
           <div class="footer">
-          <p>Version 1.5.9Duck Patch 2</p>
+          <p>Version 1.6.0</p>
           <br>
           <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">QuickSearch</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/QuickMash/search" property="cc:attributionName" rel="cc:attributionURL">Tanner Curr</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
-        </footer>
       </font>
       </body>
     </head>
