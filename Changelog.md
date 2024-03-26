@@ -1,3 +1,8 @@
+## Changelog 1.6.1 Corn🌽
+- Fixed search bar bug
+- Searches google again
+## Changelog 1.6.0(forgot to add)
+- Minor Bug Fixes
 ## Changelog 1.5.9Duck(1.5.9E)
 - Changed the version snapshot name to "Duck" to fit the temporary duckduckgo system
 - Added a box around the search stuff
