@@ -12,19 +12,18 @@
       <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
       <script>
         function show() {
-          const s = document.getElementById('inputId').value;
+          const s = document.getElementById('searchbar').value;
           document.location.href("https://duckduckgo.com/?t=h_&q=" + s);
         }
       </script>
         <div class="contain">
-          <img class="logo" title="logo" href="https://quickmash.github.io" rel="logo.png">
         <form id="searchForm" onsubmit="event.preventDefault()">
-          <input type="search" name="searchField" id="inputId" placeholder="Search duckduckgo">
+          <input type="search" name="searchField" id="searchbar" placeholder="Search duckduckgo">
           <input type="submit" value="Search" onclick="show()">
         </form>
         </div>
           <div class="footer">
-          <p>Version 1.6.0</p>
+          <p>Version 1.6.1 Corn🌽</p>
           <br>
           <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">QuickSearch</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/QuickMash/search" property="cc:attributionName" rel="cc:attributionURL">Tanner Curr</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
