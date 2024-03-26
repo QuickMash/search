@@ -13,17 +13,19 @@
       <script>
         function show() {
           const s = document.getElementById('searchbar').value;
-          document.location.href("https://duckduckgo.com/?t=h_&q=" + s);
+          document.location.href("https://www.google.com/search?q=" + s);
         }
       </script>
         <div class="contain">
-        <form id="searchForm" onsubmit="event.preventDefault()">
-          <input type="search" name="searchField" id="searchbar" placeholder="Search duckduckgo">
+        <form id="searchForm">
+          <h2>Search Google</h2>
+          <input type="search" name="searchField" id="searchbar" placeholder="Search Google">
           <input type="submit" value="Search" onclick="show()">
         </form>
         </div>
           <div class="footer">
           <p>Version 1.6.1 Corn🌽</p>
+            <p><span style="color:red">Warning!</span> Google nolonger shows if the site is secure, click the switches to check.</p>
           <br>
           <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">QuickSearch</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/QuickMash/search" property="cc:attributionName" rel="cc:attributionURL">Tanner Curr</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
