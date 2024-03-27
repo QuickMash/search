@@ -1,4 +1,7 @@
 ## Changelog 1.6.1 Corn🌽
+Corn cuz IDK
+- Removed broken Login pages
+- Theme update
 - Fixed search bar bug
 - Searches google again
 ## Changelog 1.6.0(forgot to add)
@@ -18,7 +21,5 @@
 - Bug fixes
 - Switched to duckduckgo
 ## Changelog 1.5.7
-- Removed version system
+- fixed version system
 - added login
-## Changelog 1.5.6
-This is so long ago I cannot remember
