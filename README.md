@@ -1,6 +1,2 @@
 # QuickSearch
-A Search engine made by QuickMash! Studios(Uses google)
-## Help
-Contact me on discord
-My discord username is quickmash
-
+A User-friendly google based static search engine that uses google to search
