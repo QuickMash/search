@@ -7,7 +7,7 @@ input {
   background-color: none;
 }
 body {
-	background: URL("./content/cherry.png")
+	background: URL("/content/cherry.jpg")
 }
 #h1 {
  font-size: 20px;
